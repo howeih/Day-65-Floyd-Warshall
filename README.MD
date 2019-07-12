@@ -8,12 +8,15 @@ We initialize the solution matrix same as the input graph matrix as a first step
 <br>
 The following figure shows the above optimal substructure property in the all-pairs shortest path problem.
 <br>
+
 ![Alt text](floyd_warshall.jpg?raw=true "floyd_warshall")
 <br>
 graph:
+
 ![Alt text](graph.png?raw=true "graph")
 <br>
 result:
+
 ```
 
 start:
@@ -22,7 +25,6 @@ start:
   INF    0    3  INF
     7  INF    0    1
     5  INF   12    0
-
 result:
 -----
     0    2    5    4
